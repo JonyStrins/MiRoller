@@ -38,11 +38,11 @@ class MainActivity : AppCompatActivity() {
         boton.setOnClickListener{
             Toast.makeText(applicationContext, "Boton Presionado", Toast.LENGTH_LONG).show()
 
-//            if(etq.text == "Hola"){
-//                etq.text="Adios"
-//            }else{
-//                etq.text="Hola"
-//            }
+            if(etq.text == "Hola"){
+                etq.text="Adios"
+            }else{
+                etq.text="Hola"
+            }
 
 
             // Interpolacion de cadenas con linea ejecutable, siempre empieza con ${metodo o variable}
